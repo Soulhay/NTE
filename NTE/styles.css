@@ -1,0 +1,91 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  background-color: #f4f4f9;
+  width: 250px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+input, textarea, button, select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 80px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.select-container {
+  margin: 15px 0;
+}
+
+#noteList {
+  list-style-type: none;
+  margin-top: 10px;
+  padding-left: 0;
+}
+
+#noteList li {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+}
+
+button {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e53935;
+}
+
+button:active {
+  background-color: #c62828;
+}
